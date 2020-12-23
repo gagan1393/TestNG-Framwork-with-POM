@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HybidFrameworkTestSuite]">
+  <listeners>
+    <listener class-name="com.qa.listener.MyTransform"/>
+    <listener class-name="com.qa.listener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="TestCases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="80"/>
+    <classes>
+      <class name="com.qa.testcases.Test_01_Login">
+        <methods>
+          <include name="page_title_should_be"/>
+          <include name="setUp"/>
+          <include name="quitBrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.Test_01_Login -->
+    </classes>
+  </test> <!-- TestCases(failed) -->
+</suite> <!-- Failed suite [HybidFrameworkTestSuite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HybidFrameworkTestSuite">
+	<listeners>
+		<listener class-name="com.qa.listener.MyTransform" />
+		<listener class-name="com.qa.listener.ExtentReporterNG" />
+	</listeners>
+	<test thread-count="5" name="TestCases">
+
+        <parameter name="browser" value="chrome" />
+		<parameter name="version" value="80" />
+		
+		<classes>
+			<class name="com.qa.testcases.BaseTest" />
+			<class name="com.qa.testcases.Test_01_Login" />
+		</classes>
+
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

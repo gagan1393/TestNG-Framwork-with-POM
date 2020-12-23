@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.testcases.Test_01_Login">
+        <methods>
+          <include name="page_title_should_be"/>
+          <include name="setUp"/>
+          <include name="quitBrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.Test_01_Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HybidFrameworkTestSuite" duration-ms="51253" started-at="2020-12-20T10:51:07Z" finished-at="2020-12-20T10:51:58Z">
+    <groups>
+    </groups>
+    <test name="TestCases" duration-ms="51253" started-at="2020-12-20T10:51:07Z" finished-at="2020-12-20T10:51:58Z">
+      <class name="com.qa.testcases.BaseTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.BaseTest@72d818d1]" name="setUp" is-config="true" duration-ms="45187" started-at="2020-12-20T10:51:07Z" finished-at="2020-12-20T10:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.testcases.BaseTest@72d818d1]" name="quitBrowser" is-config="true" duration-ms="595" started-at="2020-12-20T10:51:57Z" finished-at="2020-12-20T10:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa.testcases.BaseTest -->
+      <class name="com.qa.testcases.Test_01_Login">
+        <test-method status="PASS" signature="user_gets_the_title_of_the_page()[pri:1, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="user_gets_the_title_of_the_page" duration-ms="9" started-at="2020-12-20T10:51:52Z" finished-at="2020-12-20T10:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_gets_the_title_of_the_page -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="teardown" is-config="true" duration-ms="2" started-at="2020-12-20T10:51:52Z" finished-at="2020-12-20T10:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=user_gets_the_title_of_the_page status=SUCCESS method=Test_01_Login.user_gets_the_title_of_the_page()[pri:1, instance:com.qa.testcases.Test_01_Login@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="page_title_should_be()[pri:2, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="page_title_should_be" duration-ms="2" started-at="2020-12-20T10:51:52Z" finished-at="2020-12-20T10:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- page_title_should_be -->
+        <test-method status="PASS" signature="forgot_your_password_link_should_be_displayed()[pri:3, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="forgot_your_password_link_should_be_displayed" duration-ms="177" started-at="2020-12-20T10:51:52Z" finished-at="2020-12-20T10:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_your_password_link_should_be_displayed -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="teardown" is-config="true" duration-ms="0" started-at="2020-12-20T10:51:52Z" finished-at="2020-12-20T10:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=page_title_should_be status=SUCCESS method=Test_01_Login.page_title_should_be()[pri:2, instance:com.qa.testcases.Test_01_Login@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="teardown" is-config="true" duration-ms="1" started-at="2020-12-20T10:51:52Z" finished-at="2020-12-20T10:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgot_your_password_link_should_be_displayed status=SUCCESS method=Test_01_Login.forgot_your_password_link_should_be_displayed()[pri:3, instance:com.qa.testcases.Test_01_Login@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="user_enters_username()[pri:4, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="user_enters_username" duration-ms="84" started-at="2020-12-20T10:51:52Z" finished-at="2020-12-20T10:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_username -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="teardown" is-config="true" duration-ms="1" started-at="2020-12-20T10:51:52Z" finished-at="2020-12-20T10:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=user_enters_username status=SUCCESS method=Test_01_Login.user_enters_username()[pri:4, instance:com.qa.testcases.Test_01_Login@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="user_enters_password()[pri:5, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="user_enters_password" duration-ms="66" started-at="2020-12-20T10:51:52Z" finished-at="2020-12-20T10:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_password -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="teardown" is-config="true" duration-ms="1" started-at="2020-12-20T10:51:52Z" finished-at="2020-12-20T10:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=user_enters_password status=SUCCESS method=Test_01_Login.user_enters_password()[pri:5, instance:com.qa.testcases.Test_01_Login@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="user_clicks_on_login_button()[pri:6, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="user_clicks_on_login_button" duration-ms="5109" started-at="2020-12-20T10:51:52Z" finished-at="2020-12-20T10:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_login_button -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Test_01_Login@6e06451e]" name="teardown" is-config="true" duration-ms="0" started-at="2020-12-20T10:51:57Z" finished-at="2020-12-20T10:51:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=user_clicks_on_login_button status=SUCCESS method=Test_01_Login.user_clicks_on_login_button()[pri:6, instance:com.qa.testcases.Test_01_Login@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.Test_01_Login -->
+    </test> <!-- TestCases -->
+  </suite> <!-- HybidFrameworkTestSuite -->
+</testng-results>
